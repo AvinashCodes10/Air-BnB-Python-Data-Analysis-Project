@@ -21,15 +21,23 @@
   - Jupyter Notebook<a href="https://github.com/AvinashCodes10/Air-BnB-Python-Data-Analysis-Project/blob/main/Air%20BnB%20Data%20Analysis%20Project.ipynb">View Jupyter Notebook</a>
 
   ##Process
-- Data Loading & Exploration → Importing the dataset and checking its structure using .head(), .tail(), .shape(), and .describe().
-- Handling Missing Values → Identifying and removing null values using .isnull().sum() and dropna().
-- Removing Duplicates → Detecting and eliminating duplicate records using .duplicated() and drop_duplicates().
-- Data Type Conversion → Changing data types (e.g., converting id to object) for efficient processing.
-- Exploratory Data Analysis (EDA) → Performing univariate analysis (histograms, box plots) and bivariate analysis (scatter plots, bar plots).
-- Feature Engineering → Creating new variables like price per bed to extract deeper insights.
-- Geospatial Analysis → Visualizing Airbnb listings based on latitude and longitude to understand location distribution.
-- Correlation Analysis → Using heatmaps to identify relationships between variables like price, reviews, and availability.
+- Data Loading & Exploration → Importing the dataset and checking its structure using .head(), .tail(), .shape(), and .describe()
+- Handling Missing Values → Identifying and removing null values using .isnull().sum() and dropna()
+- Removing Duplicates → Detecting and eliminating duplicate records using .duplicated() and drop_duplicates()
+- Data Type Conversion → Changing data types (e.g., converting id to object) for efficient processing
+- Exploratory Data Analysis (EDA) → Performing univariate analysis (histograms, box plots) and bivariate analysis (scatter plots, bar plots)
+- Feature Engineering → Creating new variables like price per bed to extract deeper insights
+- Geospatial Analysis → Visualizing Airbnb listings based on latitude and longitude to understand location distribution
+- Correlation Analysis → Using heatmaps to identify relationships between variables like price, reviews, and availability
 
-  ##Jupyter Notebook
-  [
+  ##Project Insights
+- Price outliers detected and removed
+- Neighborhoods show significant price variation
+- Price per bed gives a clearer affordability metric
+- Private rooms are generally cheaper than entire homes
+- High availability listings may indicate professional hosts
+- Number of reviews has little impact on price
+- Listings are clustered in certain tourist-heavy areas
+- Correlation analysis shows weak relationships between price, reviews, and availability
+  
 
