@@ -5,7 +5,7 @@
 ## Dataset Used
 -<a href="https://github.com/AvinashCodes10/Air-BnB-Python-Data-Analysis-Project/blob/main/Air%20BnB.csv">Dataset</a>
 
-## Key KPI Questions
+# Key KPI Questions
 - How many missing values were present before and after cleaning?
 - How many duplicate rows were found and removed?
 - How many outliers were detected in the price column?
@@ -20,7 +20,7 @@
 
   - Jupyter Notebook<a href="https://github.com/AvinashCodes10/Air-BnB-Python-Data-Analysis-Project/blob/main/Air%20BnB%20Data%20Analysis%20Project.ipynb">View Jupyter Notebook</a>
 
-  ##Process
+  #Process
 - Data Loading & Exploration → Importing the dataset and checking its structure using .head(), .tail(), .shape(), and .describe()
 - Handling Missing Values → Identifying and removing null values using .isnull().sum() and dropna()
 - Removing Duplicates → Detecting and eliminating duplicate records using .duplicated() and drop_duplicates()
@@ -30,7 +30,7 @@
 - Geospatial Analysis → Visualizing Airbnb listings based on latitude and longitude to understand location distribution
 - Correlation Analysis → Using heatmaps to identify relationships between variables like price, reviews, and availability
 
-  ##Project Insights
+  #Project Insights
 - Price outliers detected and removed
 - Neighborhoods show significant price variation
 - Price per bed gives a clearer affordability metric
@@ -39,5 +39,9 @@
 - Number of reviews has little impact on price
 - Listings are clustered in certain tourist-heavy areas
 - Correlation analysis shows weak relationships between price, reviews, and availability
-  
+
+  #Conclusion
+- The Airbnb data analysis reveals significant price variations across neighborhoods, with price per bed providing a better affordability metric. Private rooms are generally cheaper than entire homes, and the 
+ number of reviews has little impact on pricing. Listings are clustered in high-demand areas, and availability patterns suggest both seasonal and year-round rentals. These insights can help hosts optimize pricing 
+ and travelers make informed choices
 
