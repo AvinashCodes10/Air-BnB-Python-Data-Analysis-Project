@@ -30,6 +30,10 @@
 - Geospatial Analysis → Visualizing Airbnb listings based on latitude and longitude to understand location distribution
 - Correlation Analysis → Using heatmaps to identify relationships between variables like price, reviews, and availability
 
+  ##Jupyter Notebook
+  ![Screenshot 2025-03-01 191947](https://github.com/user-attachments/assets/14c3f0aa-43d5-42b2-b0ff-83a81bd549b4)
+
+
   #Project Insights
 - Price outliers detected and removed
 - Neighborhoods show significant price variation
